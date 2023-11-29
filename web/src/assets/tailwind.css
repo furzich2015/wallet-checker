@@ -3,5 +3,18 @@
 @tailwind utilities;
 
 body {
-  @apply min-h-screen bg-white dark:bg-gray-800 dark:text-gray-200;
+  @apply min-h-screen bg-black dark:bg-gray-800 dark:text-gray-200;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Barlow-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #s05011c;
+  color: white;
 }

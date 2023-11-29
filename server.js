@@ -19,7 +19,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const app = express()
-const port = 80
+const port = 8080
 const apiRoutes = express.Router()
 
 app.use(cors())
