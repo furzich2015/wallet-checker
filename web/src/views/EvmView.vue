@@ -5,11 +5,11 @@
         </div>
         <div class="min-w-full pb-4 pt-4">
             <div class="flex space-x-4 content-center items-center place-content-center">
-                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-green-700' : activeNetwork === 'eth'}" @click="loadNetwork('eth')">Ethereum</button>
-                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-green-700' : activeNetwork === 'arbitrum'}" @click="loadNetwork('arbitrum')">Arbitrum</button>
-                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-green-700' : activeNetwork === 'optimism'}" @click="loadNetwork('optimism')">Optimism</button>
-                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-green-700' : activeNetwork === 'polygon'}" @click="loadNetwork('polygon')">Polygon</button>
-                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-green-700' : activeNetwork === 'bsc'}" @click="loadNetwork('bsc')">BNB</button>
+                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-red-400' : activeNetwork === 'eth'}" @click="loadNetwork('eth')">Ethereum</button>
+                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-red-400' : activeNetwork === 'arbitrum'}" @click="loadNetwork('arbitrum')">Arbitrum</button>
+                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-red-400' : activeNetwork === 'optimism'}" @click="loadNetwork('optimism')">Optimism</button>
+                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-red-400' : activeNetwork === 'polygon'}" @click="loadNetwork('polygon')">Polygon</button>
+                <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" :class="{'bg-red-400' : activeNetwork === 'bsc'}" @click="loadNetwork('bsc')">BNB</button>
             </div>
         </div>
         <table class="min-w-full border text-center text-sm font-light dark:border-gray-700" v-if="isDataLoaded && !isError">

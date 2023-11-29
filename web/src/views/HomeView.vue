@@ -3,7 +3,7 @@
       <div class="min-w-full header pb-4 pt-4">
         <h1 class="text-3xl">FurZich Team</h1>
     
-        <table class="w-full border">
+        <table class="w-3/4 border text-center">
           <thead>
             <tr>
               <th class="border">Network</th>
@@ -48,7 +48,6 @@
       </div>
     </div>
   </template>
-  
 
 <script>
 
