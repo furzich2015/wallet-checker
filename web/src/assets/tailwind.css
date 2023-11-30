@@ -10,7 +10,7 @@ body {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  src: url('Barlow-Regular.ttf') format('truetype');
+  src: url('./Barlow-Regular.ttf') format('truetype');
 }
 
 body {
